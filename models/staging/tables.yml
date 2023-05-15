@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: locations
+    description: Just some names
+
+  - name: taxis
+    description: Just some names
