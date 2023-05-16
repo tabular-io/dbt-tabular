@@ -35,4 +35,6 @@ vars:
 models:
   dbt_tabular:
     +materialized: table
+
 on-run-start:
+  - "CREATE SCHEMA IF NOT EXISTS {{ schema }}"
